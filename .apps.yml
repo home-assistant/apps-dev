@@ -1,3 +1,7 @@
 ---
 channel: edge
-apps: {}
+apps:
+  cec_scan:
+    repository: home-assistant/app-cec-scan
+    target: cec_scan
+    image: ghcr.io/home-assistant/app-cec-scan
