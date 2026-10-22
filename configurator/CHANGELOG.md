@@ -1,11 +1,10 @@
-- Use a 5s startup healthcheck interval (#3)
+- Drop "dependency" from Renovate PR titles for Dockerfile ARGs (#6)
 
-File editor can stay in "Starting" for about 30s because of the default
-healthcheck interval. On Docker Engine 25.0+, check every 5s during
-startup while keeping normal polling at 30s. Older engines retain 30s
-polling during startup.
+The ARG lines in the Dockerfile pin components of the image. Renovate
+titled their PRs like this:
 
-Originally submitted as home-assistant/apps#4846.
+    Update dependency hass-configurator to v0.7.0
 
-Co-authored-by: ha-newbie <143764064+ha-newbie@users.noreply.github.com>
-Co-authored-by: Claude Opus 5.5 <noreply@anthropic.com>
+Use the component name as the commit message topic. The title becomes:
+
+    Update hass-configurator to v0.7.0
