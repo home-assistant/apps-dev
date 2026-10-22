@@ -31,6 +31,10 @@ https://github.com/home-assistant/apps-dev
 
     Scan for HDMI CEC devices
 
+- **[File editor](/configurator/README.md)**
+
+    Simple browser-based file editor for Home Assistant
+
 ## Support
 
 Got questions?
