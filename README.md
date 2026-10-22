@@ -27,7 +27,9 @@ https://github.com/home-assistant/apps-dev
 
 ## Apps provided by this repository
 
-No development apps are available in this repository yet.
+- **[CEC Scanner](/cec_scan/README.md)**
+
+    Scan for HDMI CEC devices
 
 ## Support
 
