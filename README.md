@@ -35,6 +35,10 @@ https://github.com/home-assistant/apps-dev
 
     Simple browser-based file editor for Home Assistant
 
+- **[Terminal & SSH](/ssh/README.md)**
+
+    Allow logging in remotely to Home Assistant using SSH
+
 ## Support
 
 Got questions?
