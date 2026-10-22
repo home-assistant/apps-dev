@@ -1,15 +1,11 @@
-- Move dependency updates from Dependabot to Renovate (#1)
+- Use a 5s startup healthcheck interval (#3)
 
-Renovate keeps the GitHub Actions updates Dependabot made: weekly, with
-a 7 day cooldown, actions pinned to commit SHAs. It also tracks
-hass-configurator and the Home Assistant base image, which Dependabot
-did not cover.
+File editor can stay in "Starting" for about 30s because of the default
+healthcheck interval. On Docker Engine 25.0+, check every 5s during
+startup while keeping normal polling at 30s. Older engines retain 30s
+polling during startup.
 
-Pin the base image to a dated 3.24 tag with its digest, so Renovate can
-update it within the Alpine 3.24 line.
+Originally submitted as home-assistant/apps#4846.
 
-The config builds on the Renovate setup of the apps repository [1]. The
-base image rule comes from the plugin repositories [2].
-
-[1] https://github.com/home-assistant/apps/pull/4837
-[2] https://github.com/home-assistant/plugin-cli/blob/master/.github/renovate.json
+Co-authored-by: ha-newbie <143764064+ha-newbie@users.noreply.github.com>
+Co-authored-by: Claude Opus 5.5 <noreply@anthropic.com>
