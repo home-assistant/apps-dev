@@ -1,0 +1,6 @@
+---
+extends: default
+
+# Repository updater writes these files with its own formatting.
+ignore: |
+  /*/config.yaml
