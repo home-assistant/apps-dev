@@ -1,3 +1,3 @@
-- Set up standalone app repository
+- Link the development app repository in the README
 
-Build the image from the Dockerfile alone and publish it from GitHub releases.
+Remove the pre-release line, because no beta index is published.
