@@ -1,0 +1,1 @@
+- Remove config keys set to their app linter default

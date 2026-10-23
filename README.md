@@ -35,6 +35,10 @@ https://github.com/home-assistant/apps-dev
 
     Simple browser-based file editor for Home Assistant
 
+- **[Matter Server](/matter_server/README.md)**
+
+    Matter WebSocket Server for Home Assistant Matter support.
+
 - **[Terminal & SSH](/ssh/README.md)**
 
     Allow logging in remotely to Home Assistant using SSH
