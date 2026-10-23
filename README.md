@@ -43,6 +43,10 @@ https://github.com/home-assistant/apps-dev
 
     Allow logging in remotely to Home Assistant using SSH
 
+- **[Z-Wave JS](/zwave_js/README.md)**
+
+    Control a Z-Wave network with Home Assistant Z-Wave JS
+
 ## Support
 
 Got questions?
