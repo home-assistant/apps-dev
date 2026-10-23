@@ -1,4 +1,4 @@
-version: dd4dd8f
+version: 5ffa4bf
 slug: zwave_js
 name: Z-Wave JS
 description: Control a Z-Wave network with Home Assistant Z-Wave JS
