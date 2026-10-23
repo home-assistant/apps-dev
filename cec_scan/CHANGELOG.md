@@ -1,4 +1,7 @@
 # Changelog since 4.1.0
+- Update Pulse-Eight/libcec to v8 (#2)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
 - Drop "dependency" from Renovate PR titles for Dockerfile ARGs (#4)
 
 The ARG lines in the Dockerfile pin components of the image. Renovate
