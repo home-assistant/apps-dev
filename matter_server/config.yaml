@@ -1,4 +1,4 @@
-version: c0201a4
+version: 7b10820
 breaking_versions:
 - 9.0.0
 slug: matter_server
