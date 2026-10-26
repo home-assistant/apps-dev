@@ -35,6 +35,10 @@ https://github.com/home-assistant/apps-dev
 
     Simple browser-based file editor for Home Assistant
 
+- **[MariaDB](/mariadb/README.md)**
+
+    A SQL database server
+
 - **[Matter Server](/matter_server/README.md)**
 
     Matter WebSocket Server for Home Assistant Matter support.
