@@ -1,14 +1,8 @@
-- Move dependency updates from Dependabot to Renovate (#1)
+- Properly close s6 notification file descriptors (#3)
 
-Renovate keeps the GitHub Actions updates Dependabot made: weekly, with
-a 7 day cooldown, actions pinned to commit SHAs. It also tracks the Home
-Assistant base image, which Dependabot did not cover.
+* Properly close s6 notification file descriptors
 
-Pin the base image to a dated 3.23 tag with its digest, so Renovate can
-update it within the Alpine 3.23 line.
+* Close the s6 notification fd &3 in the client so it is not inherited
 
-The config builds on the Renovate setup of the apps repository [1]. The
-base image rule comes from the plugin repositories [2].
-
-[1] https://github.com/home-assistant/apps/pull/4837
-[2] https://github.com/home-assistant/plugin-cli/blob/master/.github/renovate.json
+Co-authored-by: Laszlo Magyar <lmagyar1973@gmail.com>
+Co-authored-by: Stefan Agner <stefan@agner.ch>
