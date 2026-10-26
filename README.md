@@ -35,6 +35,10 @@ https://github.com/home-assistant/apps-dev
 
     Simple browser-based file editor for Home Assistant
 
+- **[Git pull](/git_pull/README.md)**
+
+    Simple git pull to update the local configuration
+
 - **[MariaDB](/mariadb/README.md)**
 
     A SQL database server
