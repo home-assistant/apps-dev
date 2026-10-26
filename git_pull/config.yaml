@@ -1,4 +1,4 @@
-version: 3ecf5de
+version: ced04aa
 slug: git_pull
 name: Git pull
 description: Simple git pull to update the local configuration
