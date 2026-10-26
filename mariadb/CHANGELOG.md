@@ -1,8 +1,14 @@
-- Properly close s6 notification file descriptors (#3)
+- Update to Alpine 3.24 (MariaDB 11.4 to 11.8) (#5)
 
-* Properly close s6 notification file descriptors
+Note: This update upgrades MariaDB from 11.4 to 11.8. The database
+migration will be performed automatically on the first startup after the
+app is updated. Make a backup of the MariaDB app before installing this
+update.
 
-* Close the s6 notification fd &3 in the client so it is not inherited
+Alpine 3.24 updates MariaDB from 11.4.13 to 11.8.9. A data directory
+created by 11.4 cannot be used by 11.4 again after the migration, so a
+downgrade requires restoring the backup. Add 4.0.0 to breaking_versions
+to stop automatic updates, like the 3.0.0 update did for MariaDB 11.4.
 
-Co-authored-by: Laszlo Magyar <lmagyar1973@gmail.com>
-Co-authored-by: Stefan Agner <stefan@agner.ch>
+Update the Renovate versionCompatibility rule to stay on the Alpine 3.24
+line of the base image.
