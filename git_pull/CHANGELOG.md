@@ -1,14 +1,11 @@
-- Move dependency updates from Dependabot to Renovate (#1)
+- Update base image to Alpine 3.24 (#2)
 
-Renovate keeps the GitHub Actions updates Dependabot made: weekly, with
-a 7 day cooldown, actions pinned to commit SHAs. It also tracks the Home
-Assistant base image, which Dependabot did not cover.
+The new base image brings git 2.54.0 and OpenSSH 10.3p1. The bashio,
+s6-overlay and tempio versions are the same as in the 3.23 image.
 
-Pin the base image to a dated 3.23 tag with its digest, so Renovate can
-update it within the Alpine 3.23 line.
+DSA deployment keys stopped working in 8.0.0 already. That release
+moved to Alpine 3.21, whose OpenSSH 9.9p2 is built without DSA support.
+This update does not break them again, so it is not a breaking change.
 
-The config builds on the Renovate setup of the apps repository [1]. The
-base image rule comes from the plugin repositories [2].
-
-[1] https://github.com/home-assistant/apps/pull/4837
-[2] https://github.com/home-assistant/plugin-cli/blob/master/.github/renovate.json
+Drop `dsa` from the `deployment_key_protocol` schema and document that
+`dsa` keys do not work.

@@ -129,12 +129,13 @@ A private SSH key that will be used for communication during Git operations. Thi
 
 The key protocol. Default is `rsa`. Valid protocols are:
 
-- dsa
 - ecdsa
 - ed25519
 - rsa
 
 The protocol is typically known by the suffix of the private key --e.g., a key file named `id_rsa` will be a private key using `rsa` protocol.
+
+**Note**: `dsa` keys do not work since version 8.0.0 of the app. The OpenSSH client shipped with it no longer supports DSA. Replace a `dsa` key with an `ed25519` key.
 
 ## Support
 
