@@ -1,4 +1,4 @@
-version: 1b59a4a
+version: 5c48bbe
 breaking_versions:
 - 3.0.0
 slug: mariadb
