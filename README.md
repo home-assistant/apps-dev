@@ -51,6 +51,10 @@ https://github.com/home-assistant/apps-dev
 
     Allow logging in remotely to Home Assistant using SSH
 
+- **[VLC](/vlc/README.md)**
+
+    Turn your device into a Media Player with VLC
+
 - **[Z-Wave JS](/zwave_js/README.md)**
 
     Control a Z-Wave network with Home Assistant Z-Wave JS

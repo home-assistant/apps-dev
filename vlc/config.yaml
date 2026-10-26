@@ -1,0 +1,20 @@
+version: e7dd1f8
+slug: vlc
+name: VLC
+description: Turn your device into a Media Player with VLC
+url: https://github.com/home-assistant/app-vlc
+arch:
+- aarch64
+- amd64
+audio: true
+discovery:
+- vlc_telnet
+homeassistant: 2021.3.0.dev20210216
+image: ghcr.io/home-assistant/app-vlc
+ingress: true
+init: false
+map:
+- share:ro
+- media:ro
+panel_icon: mdi:vlc
+startup: services
