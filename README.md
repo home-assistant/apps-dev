@@ -47,6 +47,10 @@ https://github.com/home-assistant/apps-dev
 
     Matter WebSocket Server for Home Assistant Matter support.
 
+- **[Mosquitto broker](/mosquitto/README.md)**
+
+    An Open Source MQTT broker
+
 - **[Terminal & SSH](/ssh/README.md)**
 
     Allow logging in remotely to Home Assistant using SSH
