@@ -51,6 +51,10 @@ https://github.com/home-assistant/apps-dev
 
     An Open Source MQTT broker
 
+- **[OpenThread Border Router](/openthread_border_router/README.md)**
+
+    OpenThread Border Router app
+
 - **[Terminal & SSH](/ssh/README.md)**
 
     Allow logging in remotely to Home Assistant using SSH
