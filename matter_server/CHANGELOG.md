@@ -1,3 +1,4 @@
-- Update Matter Server to 1.5.5 (#13)
+# Changelog since 9.3.0
+- Use bashio::app instead of deprecated bashio::addon (#17)
 
-Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Co-authored-by: Claude Sonnet 5.5 <noreply@anthropic.com> 
