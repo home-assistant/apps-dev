@@ -1,4 +1,4 @@
-version: 7d50273
+version: 32bf073
 slug: rpc_shutdown
 name: RPC Shutdown
 description: Shutdown Windows machines remotely
