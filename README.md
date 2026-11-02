@@ -59,6 +59,10 @@ https://github.com/home-assistant/apps-dev
 
     Shutdown Windows machines remotely
 
+- **[Silicon Labs Flasher](/silabs_flasher/README.md)**
+
+    Silicon Labs firmware flasher add-on
+
 - **[Terminal & SSH](/ssh/README.md)**
 
     Allow logging in remotely to Home Assistant using SSH
