@@ -55,6 +55,10 @@ https://github.com/home-assistant/apps-dev
 
     OpenThread Border Router app
 
+- **[RPC Shutdown](/rpc_shutdown/README.md)**
+
+    Shutdown Windows machines remotely
+
 - **[Terminal & SSH](/ssh/README.md)**
 
     Allow logging in remotely to Home Assistant using SSH
