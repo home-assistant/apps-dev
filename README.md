@@ -83,6 +83,10 @@ https://github.com/home-assistant/apps-dev
 
     Control a Z-Wave network with Home Assistant Z-Wave JS
 
+- **[deCONZ](/deconz/README.md)**
+
+    Control a Zigbee network with ConBee or RaspBee by dresden elektronik
+
 - **[openWakeWord](/openwakeword/README.md)**
 
     openWakeWord using the Wyoming protocol
