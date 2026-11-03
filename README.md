@@ -79,6 +79,10 @@ https://github.com/home-assistant/apps-dev
 
     Control a Z-Wave network with Home Assistant Z-Wave JS
 
+- **[openWakeWord](/openwakeword/README.md)**
+
+    openWakeWord using the Wyoming protocol
+
 ## Support
 
 Got questions?
