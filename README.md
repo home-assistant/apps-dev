@@ -43,6 +43,10 @@ https://github.com/home-assistant/apps-dev
 
     Simple git pull to update the local configuration
 
+- **[Let's Encrypt](/letsencrypt/README.md)**
+
+    Manage certificate from Let's Encrypt
+
 - **[MariaDB](/mariadb/README.md)**
 
     A SQL database server
