@@ -1,0 +1,24 @@
+version: 28a2a51
+slug: speech-to-phrase
+name: Speech-to-Phrase
+description: Fast and personalized local speech-to-text
+url: https://github.com/home-assistant/app-speech-to-phrase
+arch:
+- amd64
+- aarch64
+init: false
+discovery:
+- wyoming
+map:
+- share:rw
+backup_exclude:
+- '*/models/*'
+homeassistant_api: true
+options:
+  debug_logging: false
+schema:
+  debug_logging: bool
+ports:
+  10300/tcp: null
+homeassistant: 2023.11.0
+image: ghcr.io/home-assistant/app-speech-to-phrase

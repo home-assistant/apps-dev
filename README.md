@@ -83,6 +83,10 @@ https://github.com/home-assistant/apps-dev
 
     Silicon Labs firmware flasher add-on
 
+- **[Speech-to-Phrase](/speech_to_phrase/README.md)**
+
+    Fast and personalized local speech-to-text
+
 - **[Terminal & SSH](/ssh/README.md)**
 
     Allow logging in remotely to Home Assistant using SSH
