@@ -95,6 +95,10 @@ https://github.com/home-assistant/apps-dev
 
     Turn your device into a Media Player with VLC
 
+- **[Whisper](/whisper/README.md)**
+
+    Speech-to-text with Whisper
+
 - **[Z-Wave JS](/zwave_js/README.md)**
 
     Control a Z-Wave network with Home Assistant Z-Wave JS
