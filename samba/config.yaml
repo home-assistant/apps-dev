@@ -1,4 +1,4 @@
-version: 90aef40
+version: 1d3219b
 slug: samba
 name: Samba share
 description: Expose Home Assistant folders with SMB/CIFS
