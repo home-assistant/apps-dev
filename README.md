@@ -59,6 +59,10 @@ https://github.com/home-assistant/apps-dev
 
     An Open Source MQTT broker
 
+- **[NGINX Home Assistant SSL proxy](/nginx_proxy/README.md)**
+
+    An SSL/TLS proxy
+
 - **[OpenThread Border Router](/openthread_border_router/README.md)**
 
     OpenThread Border Router app
