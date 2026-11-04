@@ -75,6 +75,10 @@ https://github.com/home-assistant/apps-dev
 
     Shutdown Windows machines remotely
 
+- **[Samba share](/samba/README.md)**
+
+    Expose Home Assistant folders with SMB/CIFS
+
 - **[Silicon Labs Flasher](/silabs_flasher/README.md)**
 
     Silicon Labs firmware flasher add-on
