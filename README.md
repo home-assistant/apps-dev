@@ -35,6 +35,10 @@ https://github.com/home-assistant/apps-dev
 
     A simple DNS server
 
+- **[Duck DNS](/duckdns/README.md)**
+
+    Free Dynamic DNS (DynDNS or DDNS) service with Let's Encrypt support
+
 - **[File editor](/configurator/README.md)**
 
     Simple browser-based file editor for Home Assistant
