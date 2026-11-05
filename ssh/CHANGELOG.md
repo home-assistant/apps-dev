@@ -1,3 +1,3 @@
-- Set up standalone app repository
+- Update home-assistant/cli to v5.6.0 (#4)
 
-Build the image from the Dockerfile alone and publish it from GitHub releases.
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
