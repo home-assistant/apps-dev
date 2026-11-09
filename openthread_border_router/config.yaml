@@ -1,4 +1,4 @@
-version: 1bf9cee
+version: d0e2ee1
 breaking_versions:
 - 3.0.0
 slug: openthread_border_router
