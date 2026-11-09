@@ -1,8 +1,7 @@
-- Drop timestamp from settings migration script logs (#29)
+- Replace deprecated bashio addon functions with app equivalents (#30)
 
-The Supervisor now adds timestamps to the app logs (log_format: timestamp),
-so the timestamp in the default coloredlogs format of the settings
-migration script is redundant. Also drop the container hostname and PID,
-which carry no useful information.
+Use bashio::app.* instead of the deprecated bashio::addon.* aliases,
+which log a deprecation warning. Also update user-facing banner text
+from "add-on" to "app".
 
 Co-authored-by: Claude Opus 5.5 <noreply@anthropic.com>
