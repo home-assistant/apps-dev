@@ -1,3 +1,4 @@
-- Update home-assistant/base image to 3.24-2026.10.3 (#3)
+# Changelog since 10.6.0
+- Update home-assistant/base image to 3.24-2026.11.0 (#6)
 
-Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 

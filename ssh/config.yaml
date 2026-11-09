@@ -1,4 +1,4 @@
-version: d9513b4
+version: 6a9d145
 slug: ssh
 name: Terminal & SSH
 description: Allow logging in remotely to Home Assistant using SSH
