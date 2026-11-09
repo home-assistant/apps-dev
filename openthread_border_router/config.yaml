@@ -1,4 +1,4 @@
-version: ebb73a3
+version: 4dc9914
 breaking_versions:
 - 3.0.0
 slug: openthread_border_router
