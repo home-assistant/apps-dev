@@ -1,3 +1,3 @@
-- Update funasr to v1.4.24 (#4)
+- Add CODEOWNERS (#6)
 
-Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Co-authored-by: Claude Opus 5 <noreply@anthropic.com>
