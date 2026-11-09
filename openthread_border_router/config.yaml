@@ -1,4 +1,4 @@
-version: 049f003
+version: c2defa9
 breaking_versions:
 - 3.0.0
 slug: openthread_border_router
