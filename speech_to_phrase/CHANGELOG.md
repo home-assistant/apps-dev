@@ -1,3 +1,3 @@
-- Update onnxruntime to v1.31.1 (#3)
+- Add CODEOWNERS (#5)
 
-Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Co-authored-by: Claude Opus 5 <noreply@anthropic.com>
