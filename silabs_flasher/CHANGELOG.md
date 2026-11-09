@@ -1,3 +1,3 @@
-- Update home-assistant/base-python image to 3.13-alpine3.23-2026.11.0 (#2)
+- Update universal-silabs-flasher to v0.1.3 (#3)
 
 Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
