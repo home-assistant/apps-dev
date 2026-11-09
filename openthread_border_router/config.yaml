@@ -1,4 +1,4 @@
-version: f5438ee
+version: ebb73a3
 breaking_versions:
 - 3.0.0
 slug: openthread_border_router
@@ -23,6 +23,7 @@ devices:
 - /dev/net/tun
 image: ghcr.io/home-assistant/app-openthread-border-router
 init: false
+log_format: timestamp
 options:
   device: null
   baudrate: '460800'
