@@ -1,3 +1,3 @@
-- Update home-assistant/base-debian image to trixie-2026.11.0 (#2)
+- Add CODEOWNERS (#4)
 
-Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Co-authored-by: Claude Opus 5 <noreply@anthropic.com>
