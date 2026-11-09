@@ -1,3 +1,3 @@
-- Update home-assistant/base-debian image to trixie-2026.11.0 (#8)
+- Update onnxruntime to v1.31.1 (#9)
 
 Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
