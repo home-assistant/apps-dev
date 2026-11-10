@@ -42,6 +42,7 @@ rights:
 ### Option: `databases` (required)
 
 Database name, e.g., `homeassistant`. Multiple are allowed.
+A name may only contain letters, digits, `_`, `$` and `-`.
 
 ### Option: `logins` (required)
 
@@ -50,6 +51,7 @@ This section defines a create user definition in MariaDB. [Create User][createus
 ### Option: `logins.username` (required)
 
 Database user login, e.g., `homeassistant`. [User Name][username] documentation.
+A user name may only contain letters, digits, spaces, `_`, `-`, `.` and `@`.
 
 ### Option: `logins.password` (required)
 

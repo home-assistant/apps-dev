@@ -1,4 +1,4 @@
-version: '2012001'
+version: d94ec1a
 breaking_versions:
 - 3.0.0
 - 4.0.0
@@ -26,16 +26,16 @@ ports:
   3306/tcp: null
 schema:
   databases:
-  - str
+  - match(^[\w$-]{1,64}$)
   logins:
-  - username: str
+  - username: match(^[\w.@ -]{1,128}$)
     password: password
   rights:
-  - database: str
+  - database: match(^[\w$-]{1,64}$)
     privileges:
     - list(ALTER|CREATE|CREATE ROUTINE|CREATE TEMPORARY TABLES|CREATE VIEW|DELETE|DELETE
       HISTORY|DROP|EVENT|GRANT OPTION|INDEX|INSERT|LOCK TABLES|SELECT|SHOW VIEW|TRIGGER|UPDATE)?
-    username: str
+    username: match(^[\w.@ -]{1,128}$)
   mariadb_server_args:
   - str?
 services:
