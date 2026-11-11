@@ -1,4 +1,4 @@
-version: c8de64a
+version: f91b538
 breaking_versions:
 - 5.3.0
 - 6.0.0
@@ -12,6 +12,7 @@ arch:
 boot: manual
 image: ghcr.io/home-assistant/app-letsencrypt
 init: false
+log_format: timestamp
 map:
 - ssl:rw
 - share
