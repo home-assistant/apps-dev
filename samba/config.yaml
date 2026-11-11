@@ -1,4 +1,4 @@
-version: '6239791'
+version: aedcc75
 slug: samba
 name: Samba share
 description: Expose Home Assistant folders with SMB/CIFS
@@ -10,6 +10,7 @@ hassio_api: true
 host_network: true
 image: ghcr.io/home-assistant/app-samba
 init: false
+log_format: timestamp
 map:
 - local_apps:rw
 - all_app_configs:rw
