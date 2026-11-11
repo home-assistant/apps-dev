@@ -1,8 +1,8 @@
-- Pass the password to smbpasswd with printf (#8)
+- Pass the interface list to jq as a variable (#11)
 
-The password was piped to smbpasswd with echo. Bash's echo treats an
-argument such as -n or -e as an option, so a password of that form was
-swallowed and smbpasswd received empty input. printf with a %s format
-passes any password through unchanged.
+The interface list was produced by a nested jq call and spliced into
+the text of the outer jq program. Pass it with --argjson instead, so
+the program is a constant single-quoted string and needs no shell
+escaping. The rendered options are unchanged.
 
 Co-authored-by: Claude Fable 5.2 <noreply@anthropic.com>
