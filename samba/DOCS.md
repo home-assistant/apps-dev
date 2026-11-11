@@ -16,7 +16,7 @@ Follow these steps to get the app (formerly known as add-on) installed on your s
 
 ## Connection
 
-If you are on Windows you use `\\<IP_ADDRESS>\`, if you are on MacOS you use `smb://<IP_ADDRESS>` to connect to the shares.
+If you are on Windows you use `\\<IP_ADDRESS>\`, if you are on macOS you use `smb://<IP_ADDRESS>` to connect to the shares.
 
 This app exposes the following directories over smb (samba):
 
@@ -162,4 +162,3 @@ In case you've found a bug, please [open an issue on our GitHub][issue].
 [forum]: https://community.home-assistant.io
 [issue]: https://github.com/home-assistant/app-samba/issues
 [reddit]: https://reddit.com/r/homeassistant
-[repository]: https://github.com/hassio-addons/repository

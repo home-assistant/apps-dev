@@ -1,8 +1,9 @@
-- Pass the interface list to jq as a variable (#11)
+- Shorten the enabled_shares label and tidy DOCS.md (#12)
 
-The interface list was produced by a nested jq call and spliced into
-the text of the outer jq program. Pass it with --argjson instead, so
-the program is a constant single-quoted string and needs no shell
-escaping. The rendered options are unchanged.
+The enabled_shares field label carried the whole list of allowed
+values. Move that list into the description and keep the label short.
+
+In DOCS.md, spell macOS correctly and drop the unused link reference to
+the hassio-addons repository.
 
 Co-authored-by: Claude Fable 5.2 <noreply@anthropic.com>
