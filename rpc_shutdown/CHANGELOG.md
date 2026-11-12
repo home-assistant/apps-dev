@@ -1,3 +1,4 @@
-- Update home-assistant/workflows action to v0.1.2 (#6)
+- Use key=value form for ENV in Dockerfile (#5)
 
-Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Docker build checks flag the legacy "ENV key value" form with the
+LegacyKeyValueFormat warning.
