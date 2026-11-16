@@ -95,6 +95,10 @@ https://github.com/home-assistant/apps-dev
 
     Turn your device into a Media Player with VLC
 
+- **[Voice](/voice_support/README.md)**
+
+    A second opinion on what your voice satellites hear
+
 - **[Whisper](/whisper/README.md)**
 
     Speech-to-text with Whisper
