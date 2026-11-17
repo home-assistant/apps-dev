@@ -1,3 +1,3 @@
-- Update onnxruntime to v1.32.0 (#18)
+- Update wyoming-faster-whisper to 3.9.0 (#20)
 
-Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Co-authored-by: Claude Opus 5.5 <noreply@anthropic.com>
