@@ -1,4 +1,7 @@
 # Changelog since 10.6.0
+- Update home-assistant/workflows action to v0.1.2 (#11)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
 - Update home-assistant/cli to v5.7.0 (#9)
 
 Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
