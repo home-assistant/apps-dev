@@ -1,4 +1,4 @@
-version: eb204b0
+version: 8c39bc4
 slug: cec_scan
 name: CEC Scanner
 url: https://github.com/home-assistant/app-cec-scan
