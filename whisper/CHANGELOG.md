@@ -1,4 +1,7 @@
 # Changelog since 3.6.1
+- Update funasr to v1.4.29 (#27)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
 - Update ctranslate2 to v4.9.1 (#25)
 
 Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
