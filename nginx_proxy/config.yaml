@@ -1,4 +1,4 @@
-version: 6a42b8f
+version: e850740
 hassio_api: true
 slug: nginx_proxy
 name: NGINX Home Assistant SSL proxy

@@ -13,14 +13,15 @@ Follow these steps to get the app installed on your system:
 The NGINX Proxy app is commonly used in conjunction with the [Duck DNS](https://github.com/home-assistant/addons/tree/master/duckdns) and/or the [Let's Encrypt](https://github.com/home-assistant/addons/tree/master/letsencrypt) app to set up secure remote access to your Home Assistant instance. The following instructions covers this scenario.
 
 1. The certificate to your registered domain should already be created via [Duck DNS](https://github.com/home-assistant/addons/tree/master/duckdns), [Let's Encrypt](https://github.com/home-assistant/addons/tree/master/letsencrypt) or another method. Make sure that the certificate files exist in the `/ssl` directory.
-2. You must add the following section to your [Home Assistant configuration.yaml](https://www.home-assistant.io/docs/configuration/). If the `http` section is using the `ssl_certificate` or `ssl_key` keys, enable the `use_ssl_backend` option.
+2. Configure Home Assistant to trust the proxy. Requests from reverse proxies are blocked unless this is set. In Home Assistant, go to **Settings** > **System** > **Network**, the **HTTP server** section, and under **Reverse proxy**:
+   - Turn on **Trust X-Forwarded-For**.
+   - Add `172.30.33.0/24` to **Trusted proxies**.
 
-   ```yaml
-   http:
-     use_x_forwarded_for: true
-     trusted_proxies:
-       - 172.30.33.0/24
-   ```
+   Save, then confirm the new settings after Home Assistant restarts (they are reverted automatically if not confirmed within 5 minutes).
+
+   If the HTTP server has an SSL certificate and key configured, enable the `use_ssl_backend` option of this app.
+
+   > **Note:** Before Home Assistant 2026.8, these settings were configured in the `http:` section of `configuration.yaml`. That YAML is now ignored once migrated; remove any `http:` block from `configuration.yaml`.
 
 3. In the nginx app configuration, change the `domain` option to the domain name you registered (from DuckDNS or any other domain you control).
 4. Leave all other options as-is.
@@ -81,7 +82,7 @@ This is so the `ip_ban_enabled` feature can be used and work correctly in /confi
 
 ### Option `use_ssl_backend` (optional)
 
-Enable this option to configure Nginx to connect with SSL to the backend when your `http` section uses the `ssl_certificate` or `ssl_key` options.
+Enable this option to configure Nginx to connect with SSL to the backend when your Home Assistant HTTP server is configured with an SSL certificate and key.
 
 ### Option `real_ip_from` (optional)
 
@@ -98,7 +99,7 @@ If specified, configures Nginx to use HTTP/3 with QUIC/UDP on this UDP port in a
 
 ## Troubleshooting
 
-- `400 Bad Request` response for requests over this proxy mean you are probably missing the `trusted_proxies` configuration option, see above.
+- `400 Bad Request` response for requests over this proxy mean you are probably missing the **Reverse proxy** configuration options, see above.
 - HTTP/3 (QUIC) enabled, but not working. Check for the `Alt-Svc 'h3=":443"; ma=86400'` header in your web browser's development tools. Make sure the UDP QUIC port is forwarded or allowed in your firewall, in addition to the TCP HTTPS port.
 
 ## Support
