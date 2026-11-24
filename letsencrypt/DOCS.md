@@ -238,6 +238,16 @@ before the certificates' due date. If the certificates are not due for renewal,
 the app terminates without changes. If the certificates are due for renewal,
 new certificates will be created.
 
+After a certificate is created or renewed, restart Home Assistant if you use
+these certificate files to serve HTTPS directly, as in the `http:` example
+above. Home Assistant loads the certificate when it starts. Restarting only
+the Let's Encrypt app does not make Home Assistant use the new certificate.
+You do not need to reboot the host.
+
+If a reverse proxy or another app uses the certificate instead, follow that
+service's instructions for reloading or restarting it to apply the new
+certificate. Some services reload certificates automatically.
+
 There are multiple ways how the app can be started to check/renew the
 certificates. One way to automate the certificate renewal is to configure a
 [Home Assistant automation][haauto] to restart this app every night via the [Supervisor app restart action][supervisorrestart].

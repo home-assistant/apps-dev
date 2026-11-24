@@ -1,3 +1,3 @@
-- Update certbot-dns-multi to v5.7.0 (#11)
+- Document restart requirements after certificate renewal (#17)
 
-Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Added instructions for restarting Home Assistant after certificate renewal.
