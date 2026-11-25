@@ -1,4 +1,10 @@
 # Changelog since 9.3.0
+- Update hassio-addons/bashio to v0.20.0 (#30)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
+- Update home-assistant/workflows action to v0.1.2 (#29)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
 - Update Matter Server to 1.6.0 (#25)
 
 Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
