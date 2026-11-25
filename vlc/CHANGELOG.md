@@ -1,11 +1,7 @@
-- Convert startup scripts to s6-rc oneshots and modernize finish scripts (#5)
+# Changelog since 1.2.0
+- Update home-assistant/base image to 3.24-2026.11.1 (#7)
 
-Replace the legacy cont-init.d scripts with init-secret and init-nginx
-oneshots, so vlc and nginx declare their dependencies explicitly. Use
-the /command/with-contenv shebang consistently.
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
+- Update home-assistant/workflows action to v0.1.2 (#6)
 
-Rework the finish scripts to record the exit code in the container
-results like other apps do. VLC does not halt on SIGTERM since
-pulse-monitor restarts it that way when the PulseAudio socket goes away.
-
-Co-authored-by: Claude Opus 5.5 <noreply@anthropic.com>
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
