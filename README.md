@@ -81,7 +81,7 @@ https://github.com/home-assistant/apps-dev
 
 - **[Silicon Labs Flasher](/silabs_flasher/README.md)**
 
-    Silicon Labs firmware flasher add-on
+    Silicon Labs firmware flasher app
 
 - **[Speech-to-Phrase](/speech_to_phrase/README.md)**
 
