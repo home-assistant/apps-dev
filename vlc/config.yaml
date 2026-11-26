@@ -1,4 +1,4 @@
-version: b358e88
+version: d86c858
 slug: vlc
 name: VLC
 description: Turn your device into a Media Player with VLC
@@ -18,3 +18,4 @@ map:
 - media:ro
 panel_icon: mdi:vlc
 startup: services
+supervisor_api_tcp: false
