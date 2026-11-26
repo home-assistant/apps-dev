@@ -1,4 +1,7 @@
 # Changelog since 3.4.0
+- Update home-assistant/base-debian image to trixie-2026.11.1 (#41)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
 - Move the s6 user bundle to user-bundles.d (#33)
 
 s6-overlay 3.2.3.2, which the base image ships since 2026.10.0, reads
