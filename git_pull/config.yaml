@@ -1,4 +1,4 @@
-version: 28180dd
+version: b926631
 slug: git_pull
 name: Git pull
 description: Simple git pull to update the local configuration
