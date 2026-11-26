@@ -1,4 +1,7 @@
 # Changelog since 3.6.1
+- Update home-assistant/base-debian image to trixie-2026.11.1 (#28)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
 - Update funasr to v1.4.29 (#27)
 
 Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
