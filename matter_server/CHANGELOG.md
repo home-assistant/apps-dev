@@ -1,4 +1,7 @@
 # Changelog since 9.3.0
+- Update Matter Server to 1.6.1 (#31)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
 - Update hassio-addons/bashio to v0.20.0 (#30)
 
 Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
