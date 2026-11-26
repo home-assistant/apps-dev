@@ -1,4 +1,4 @@
-- Use key=value form for ENV in Dockerfile (#5)
+# Changelog since 3.1.0
+- Update home-assistant/base image to 3.24-2026.11.1 (#7)
 
-Docker build checks flag the legacy "ENV key value" form with the
-LegacyKeyValueFormat warning.
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
