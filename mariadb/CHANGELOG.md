@@ -1,4 +1,10 @@
 # Changelog since 4.0.0
+- Update home-assistant/base image to 3.24-2026.11.1 (#12)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
+- Update home-assistant/workflows action to v0.1.2 (#11)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> 
 - Move the s6 user bundle to user-bundles.d (#10)
 
 s6-overlay 3.2.3.2, which the base image ships since 2026.11.0, reads
