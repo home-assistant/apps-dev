@@ -1,4 +1,4 @@
-version: 8.8.1
+version: c56b439
 slug: deconz
 name: deCONZ
 description: Control a Zigbee network with ConBee or RaspBee by dresden elektronik
@@ -49,5 +49,6 @@ schema:
   dbg_error: int(0,2)?
   dbg_http: int(0,1)?
 startup: services
+timeout: 120
 udev: true
 usb: true
