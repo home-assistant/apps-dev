@@ -1,23 +1,17 @@
-- Print flashing progress as plain log lines (#11)
+- Update base image to 3.14-alpine3.24-2026.11.1 (#12)
 
-* Print flashing progress as plain log lines
+* Update base image to Alpine 3.24
 
-universal-silabs-flasher v1 draws a tqdm progress bar that redraws
-itself in place with carriage returns. In the app log every redraw ends
-up as its own line, about 190 lines of bar characters per flash.
-
-Configure tqdm through its environment variables to print a plain
-progress line every 5 seconds, and strip the carriage returns from the
-flasher output. Use pipefail so the flasher's exit code is kept.
+Move from base-python 3.13-alpine3.23 to 3.13-alpine3.24 and update the
+Renovate versionCompatibility pattern, so Renovate keeps following the
+dated tags of the new Alpine base.
 
 Co-Authored-By: Claude Fable 5.2 <noreply@anthropic.com>
 
-* Simplify progress output filtering
+* Update base image to Python 3.14
 
-Drop the percentage and total from the progress line. The flasher
-overshoots the firmware size on the last update, which needed a filter
-loop to hide. With a plain byte count, tr is enough to strip the
-carriage returns.
+universal-silabs-flasher is tested upstream on Python 3.11 to 3.14, and
+Home Assistant Core runs the same zigpy stack on 3.14.
 
 Co-Authored-By: Claude Fable 5.2 <noreply@anthropic.com>
 

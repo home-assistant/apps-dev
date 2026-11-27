@@ -1,4 +1,4 @@
-version: '2622424'
+version: 2c0ae36
 slug: silabs_flasher
 name: Silicon Labs Flasher
 description: Silicon Labs firmware flasher app
